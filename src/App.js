@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Analytics } from '@vercel/analytics/react';
+import AnimeCard from './AnimeCard';
+import Navigation from './Navigation';
+import Banner from './Banner';
+import Trending from './Trending';
+import Recent from './Recent';
+import Genres from './Genres';
+import Footer from './Footer';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='px-6'>      
+      <Navigation />
+      <div className='flex md:gap-4 pt-20 flex-col lg:flex-row'>
+        <Banner />
+        <Trending />
+        
+      </div>
+
+      <div className='grid grid-cols-12 md:gap-4 mt-8'>
+        <Genres/> 
+        <Recent/>
+        
+        </div>
+     <div>
+     <Footer/>
+     </div>
     </div>
+
+    
   );
 }
 

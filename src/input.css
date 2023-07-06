@@ -1,3 +1,46 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+    font-family: 'matter';
+    src: url('./Matter-Regular.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'matter';
+    src: url('./Matter-Bold.otf') format('opentype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'matter';
+    src: url('./Matter-Heavy.otf') format('opentype');
+    font-weight: 900;
+  }
+  
+  @font-face {
+    font-family: 'matter';
+    src: url('./Matter-Medium.otf') format('opentype');
+    font-weight: 500;
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  :root {
+    --color-1: #121212;
+    --color-2: #8f8f8f;
+    --color-3: #2d2d2d;
+    --color-4: #dde6ed;
+    --color-5: rgb(220, 38, 38);
+  }
+  
+  body {
+    background: var(--color-1);
+    height: max-content !important;
+  }
+  
+  .bg-white-scroll {
+    position: fixed;
+    background-color: #000;
+    z-index: 9999;
+  }
+  
