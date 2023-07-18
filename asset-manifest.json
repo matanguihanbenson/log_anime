@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/log_anime/static/css/main.a658bedc.css",
-    "main.js": "/log_anime/static/js/main.8a5ec6a5.js",
+    "main.js": "/log_anime/static/js/main.c283c237.js",
     "static/js/787.f145df4d.chunk.js": "/log_anime/static/js/787.f145df4d.chunk.js",
     "static/media/Matter-Medium.otf": "/log_anime/static/media/Matter-Medium.437ae70937dd62d5c7bd.otf",
     "static/media/Matter-Bold.otf": "/log_anime/static/media/Matter-Bold.c583de1b2ee05e9564dd.otf",
@@ -10,11 +10,11 @@
     "static/media/Game.png": "/log_anime/static/media/Game.fbae1fa488315e47d34f.png",
     "index.html": "/log_anime/index.html",
     "main.a658bedc.css.map": "/log_anime/static/css/main.a658bedc.css.map",
-    "main.8a5ec6a5.js.map": "/log_anime/static/js/main.8a5ec6a5.js.map",
+    "main.c283c237.js.map": "/log_anime/static/js/main.c283c237.js.map",
     "787.f145df4d.chunk.js.map": "/log_anime/static/js/787.f145df4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a658bedc.css",
-    "static/js/main.8a5ec6a5.js"
+    "static/js/main.c283c237.js"
   ]
 }
